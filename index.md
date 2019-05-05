@@ -85,18 +85,17 @@ th{
 
 <h1 style="color: black; font-weight: bold;font-size:0.8cm">公園特色介紹</h1>
 
-<h2>一、濕地 :</h2> 
+<h2>一、自然生態 :</h2> 
 <div style="background-color:#EEFFBB;border:2px black solid;padding:10px;">
-<p><img style="width:300px;height:300px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Salt_Mountain.jpg/275px-Salt_Mountain.jpg" align="left">
-<h3 style="font-size:18px;font-family:微軟正黑體;font-weight:900;">2007年中華民國內政部營建署評選75處國家級、國際級濕地，其中4處位於台江國家公園內。</h3>
-<h4 style="font-size:18px;font-family:微軟正黑體"><gg style="font-weight:900;">曾文溪口濕地：</gg>國際級，瀕臨絕種的黑面琵鷺每年有三分之二在此渡冬。</h4>
-<h4 style="font-size:18px;font-family:微軟正黑體"><gg style="font-weight:900;">四草濕地：</gg>國際級，範圍內有多處魚塭、鹽田、渠道及紅樹林，為高蹺鴴等水鳥繁殖與保護區。</h4>
-<h4 style="font-size:18px;font-family:微軟正黑體"><gg style="font-weight:900;">七股鹽田濕地：</gg>國家級，冬季吸引雁鴨，亦為黑面琵鷺棲息地。</h4>
-<h4 style="font-size:18px;font-family:微軟正黑體"><gg style="font-weight:900;">鹽水溪口濕地：</gg>國家級，有藻類、紅樹林等。</h4>
+<p><img style="width:300px;height:300px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Nanwan_%28South_Bay%29.jpg/330px-Nanwan_%28South_Bay%29.jpg" align="left">
+<h3 style="font-size:18px;font-family:微軟正黑體;font-weight:900;">墾丁位處於熱帶，區內動植物種類豐富。至2014年，根據統計動物達5,164種，植物也有1,921種</h3>
+<h4 style="font-size:18px;font-family:微軟正黑體"><gg style="font-weight:900;">特有植物 :</gg>恆春半島的特有植物十分繁複。包括：瓜葉馬兜鈴、臺灣紅豆樹、鵝鑾鼻大戟、恆春鐵莧、南仁五月茶、恆春金線蓮、恆春石斑木等等近110種。</h4>
+<h4 style="font-size:18px;font-family:微軟正黑體"><gg style="font-weight:900;">海中生態：</gg>在恆春半島曾見的鯨豚類有大翅鯨、抹香鯨、吉氏海豚及黑身瓶鼻海豚。每年12月至翌年3月，在恆春西海岸之海口附近可見鯨類，而冬季時恆春半島各處沿海均可看到成群海豚。</h4>
+<h4 style="font-size:18px;font-family:微軟正黑體"><gg style="font-weight:900;">候鳥：</gg>由於墾丁位於台灣本島最南端，過境此區的候鳥種類眾多，其中最著名的有秋冬之際南下避寒的伯勞與灰面鷲，灰面鷲到達墾丁的時間常於十月十日前後，故又稱「國慶鳥」。 此外，墾丁北區的龍鑾潭也是境內水鳥聚集的地點，包括雁鴨與鷸鴴科鳥類均可發現。國家公園在此處設立龍鑾潭自然中心，擁有賞鳥的專業設施。</h4>
 </p>
 </div>
 
-<h2>二、河口沙洲潟湖生態 : </h2>
+<h2>二、觀光景點 : </h2>
 <div style="background-color:#EEFFBB;border:2px black solid;padding:10px;">
 <h3 style="font-size:18px;font-family:微軟正黑體"><gg style="font-weight:900;">海灘：</gg>因為波浪或沿岸流等搬運沙礫堆積在海濱，就形成了海灘。可分為沙灘、礫灘。</h3>
 <h3 style="font-size:18px;font-family:微軟正黑體"><gg style="font-weight:900;">沙洲：</gg>海中的沙礫，因波浪和海流的作用，在濱海地區形成的堤狀沙礫堆積地形，通稱沙洲或障沙島。沙洲完全不與海岸相連者，即為濱外沙洲或離岸沙洲。沙洲為地理學上的名詞，當地人則稱之為「汕」，如：新浮崙汕、頂頭額汕。</h3>
@@ -105,22 +104,12 @@ th{
 <h3 style="font-size:18px;font-family:微軟正黑體"><gg style="font-weight:900;">海埔地：</gg>即海埔新生地，係指在海岸地區經自然沈積或施工築堤涸出之土地，廣義而言，泛指臨海地區淺灘處表露的新生土地。</h3>
 </div>
 
-<h2>三、紅樹林濕地生態 : </h2>
+<h2>三、活動 : </h2>
 <div style="background-color:#EEFFBB;border:2px black solid;padding:10px;font-size:18px;font-family:微軟正黑體">
 <h3><gg style="font-weight:900;">曾文溪北岸的紅樹林，以七股溪與三股溪會合口有近10公頃海茄苳純林的「海寮紅樹林保護區」最具代表性，不但林相優美，也是上千小白鷺、夜鷺及黃頭鷺的群聚營巢所在。 曾文溪北岸以南有三處可欣賞紅樹林濕地</gg></h3>
 <h3><gg style="font-weight:900;">1.</gg>在竹筏港潮溝及蔡姑娘廟附近水道，組成樹種為海茄苳及欖李。</h3>
 <h3><gg style="font-weight:900;">2.</gg>在四草地區大眾廟後面及東側水道的紅海欖（五梨跤）具茂密支持根及樹冠層，廟旁水道的海茄苳根據年輪調查應有超過數十年的歷史，形成獨特風格的「綠色隧道」。廟的前潮池及周邊水道有生長良好的欖李，六月開滿白花有如六月雪，另有少數人工復育的水筆仔，在此處小小範圍內可同時看到四種紅樹林植物。</h3>
 <h3><gg style="font-weight:900;">3.</gg>在四草湖區域（鹽水溪、嘉南大圳、運鹽古運河，與竹筏港溪交會處）有原生較大面積的海茄苳、欖李與紅海欖（五梨跤）的混合林。</h3>
-</div>
-<h2>四、沙洲 : </h2>
-<div style="background-color:#EEFFBB;border:2px black solid;padding:10px;font-size:18px;font-family:微軟正黑體">
-<h3>曾文溪口離岸沙洲  臺南城西濱海沙洲  新浮崙汕</h3>
-<h3>青山港汕         網仔寮  頂頭額汕</h3>
-</div>
-<h2>五、古蹟與史蹟 : </h2>
-<div style="background-color:#EEFFBB;border:2px black solid;padding:10px;font-size:18px;font-family:微軟正黑體">
-<h3>四草砲台(國定二級古蹟)      鹿耳門港</h3>
-<h3>安順鹽場運鹽碼頭(市定古蹟)  竹筏港</h3>
 </div>
 
 
