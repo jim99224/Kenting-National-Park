@@ -97,6 +97,7 @@ th{
 
 <h2>二、觀光景點 : </h2>
 <div style="background-color:#EEFFBB;border:2px black solid;padding:10px;">
+<img style="width:300px;height:300px" src="https://upload.wikimedia.org/wikipedia/commons/2/2c/Eluanbi_lighthouse.jpg" align="right">
 <h3 style="font-size:18px;font-family:微軟正黑體"><gg style="font-weight:900;">鵝鑾鼻燈塔：</gg>鵝鑾鼻燈塔是臺灣最南端的燈塔。塔身全白，為圓柱形，為白鐵製，塔高24.1公尺，塔頂換裝新式大型四等旋轉透鏡電燈，經過大型旋轉透鏡後，光力為1,800,000支燭光，每十秒一閃，照射距離達二十七點二浬，是目前臺灣光力最強的燈塔，被稱為「東亞之光」。</h3>
 <h3 style="font-size:18px;font-family:微軟正黑體"><gg style="font-weight:900;">墾丁國家森林遊樂區：</gg>全區遍布隆起珊瑚礁岩；植物共有1,200多種，分為椰子、油脂、橡膠、藥用、熱帶果樹等區，共有17處遊覽據點，其中以銀葉板根、仙洞、觀海樓、垂榕谷等較為出名。在仙洞、銀龍洞等天然石灰岩洞內，有各種石鐘乳及石筍，都是地下水中所溶蝕的碳酸鈣成份凝聚形成，成長緩慢，十分珍貴。</h3>
 <h3 style="font-size:18px;font-family:微軟正黑體"><gg style="font-weight:900;">社頂自然公園：</gg>園內並有豐富的動植物、石灰岩洞、以及珊瑚礁岩裂縫造成的「一線天」景觀。植物有329種以上，原生馬兜鈴科、芸香科、蘿科等蝴蝶食草植物大量分布，公園內有近50種蝴蝶，是觀賞及研究蝴蝶的理想地區。</h3>
