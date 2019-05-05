@@ -103,6 +103,7 @@ th{
 <h3 style="font-size:18px;font-family:微軟正黑體"><gg style="font-weight:900;">社頂自然公園：</gg>園內並有豐富的動植物、石灰岩洞、以及珊瑚礁岩裂縫造成的「一線天」景觀。植物有329種以上，原生馬兜鈴科、芸香科、蘿科等蝴蝶食草植物大量分布，公園內有近50種蝴蝶，是觀賞及研究蝴蝶的理想地區。</h3>
 <h3 style="font-size:18px;font-family:微軟正黑體"><gg style="font-weight:900;">南灣：</gg>南灣是墾丁最負盛名的海灘之一，舊稱大坂埒。因海水湛藍，又稱做藍灣。此地沙灘長約600公尺，弧線美，沙質潔靜，在沙灘上經常有許多人進行游泳、日光浴、戲水等活動。本區漁產量豐富，時可見漁民使用地曳網（俗稱牽罟）作業的情形，每年4-7月虱目魚苗季可見到使用手抄網、塑膠筏捕捉魚苗，蔚為奇觀。近因觀光人潮眾多，已不復見。</h3>
 <h3 style="font-size:18px;font-family:微軟正黑體"><gg style="font-weight:900;">關山：</gg>關山山頂上有一座依珊瑚礁建造的廟宇，為台灣其他地區所罕見，因為主神是福德正神，故稱福德宮。宮外有一巨石，民間相傳是五百年前天外飛來的，故稱「飛來石」，又因為型似烏龜，被稱為「靈龜石」。從其組成及四週地形可知為隆起珊瑚礁經差異侵蝕而遺留，常為遊客攝影的好題材。</h3>
+<img style="width:300px;height:300px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Chuanfan_Rock_in_Kenting_National_Park_00224.JPG/330px-Chuanfan_Rock_in_Kenting_National_Park_00224.JPG" align="left">
 <h3 style="font-size:18px;font-family:微軟正黑體"><gg style="font-weight:900;">船帆石：</gg>又稱「帆船石」，由墾丁往鵝鑾鼻方向，沿途可看到有一狀似帆船的珊瑚礁岩矗立於海中，看起來像是即將啟航的帆船，因而被稱為船帆石。由於從某一角度觀看像美國前總統尼克森的頭像，該石亦俗稱尼克森頭。</h3>
 <h3 style="font-size:18px;font-family:微軟正黑體"><gg style="font-weight:900;">瓊麻展示館：</gg>位於龍鑾潭南岸，佔地18公頃，館內有日據時期"台灣纖維株式會社"所留下的宿舍、神社拱門等遺跡，並有瓊麻製造廠房、曬麻場與加工機器等。</h3>
 <h3 style="font-size:18px;font-family:微軟正黑體"><gg style="font-weight:900;">佳樂水：</gg>佳樂水位於墾丁東海岸，原稱「高落水」、「佳落水」，是指該處有一瀑布。</h3>
