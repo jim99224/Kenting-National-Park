@@ -238,6 +238,7 @@ th{
 <a href="https://zh.wikipedia.org/wiki/%E5%A2%BE%E4%B8%81%E5%9C%8B%E5%AE%B6%E5%85%AC%E5%9C%92#%E8%87%AA%E7%84%B6%E7%94%9F%E6%85%8B"><h3>維基百科</h3></a>
 <a href="http://np.cpami.gov.tw/youth/index.php?option=com_content&view=article&id=31&Itemid=6"><h3>台灣國家公園(墾丁國家公園)</h3></a>
 <a href="https://www.tjnp.gov.tw//chtNature/Environment/ShiDiXueXiao2.htm"><h3>台江國家公園(台江濕地學校)</h3></a>
+<a href="http://uukt.com.tw/traffic/how-to-go-kenting"><h3>悠遊墾丁</h3></a>
 </div>
 </div>
 <a class="button" id="top" href="#">點此返回網頁頂部</a>
