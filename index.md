@@ -16,31 +16,55 @@ body{
 }
 	
 td{
-   font-family:"標楷體";
+   font-family:"微軟正黑體";
    font-size:18px;
 }
 th{
-   font-family:"標楷體";
+   font-family:"微軟正黑體";
    font-size:18px;
    font-weight:900;
 }
 	
-$(function(){
-	$(window).scroll(function(){  
-	var scrollt = document.documentElement.scrollTop + document.body.scrollTop; 
-	if( scrollt >200 ){   
-		$("#gotop").fadeIn(400);     
-	}else{      
-		$("#gotop").stop().fadeOut(400); 
-	}
-});
-$("#gotop").click(function(){ 
-		$("html,body").animate({scrollTop:"0px"},200);
-});
-
+.button{
+    background-color: #a0fdff;
+    border: 2px solid black;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+ #top{
+    position:fixed;
+    right:10%;
+    bottom:18%;
+ }
+ #bottom{
+    position:fixed;
+    right:10%;
+    bottom:10%;
+ }
+ 
 </style>
-<div style="font-family:標楷體">
-<h1 style="color: black; font-weight: bold;font-size:40px"><center>台江國家公園</center></h1>
+
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      $('#top').click(function () {
+        $('html, body').animate({scrollTop: 0},1000);
+      });
+      $('#bottom').click(function () {
+        $('html, body').animate({scrollTop:$(document).height()-$(window).height()}, 1000);
+      });
+    });
+  </script>
+</head>
+
+<div style="font-family:微軟正黑體">
+<h1 style="color: black; font-weight: bold;font-size:40px"><center>墾丁國家公園</center></h1>
 
 <h1 style="color: black; font-weight: bold;font-size:0.8cm">基本資訊</h1>
 <div style="background-color:#EEFFBB;border:2px black solid;padding:10px;font-size:18px;">
@@ -50,7 +74,7 @@ $("#gotop").click(function(){
 </div>
 
 <h1 style="color: black; font-weight: bold;font-size:0.8cm">國家公園標誌意涵</h1>
-<div style="background-color:#EEFFBB;border:2px black solid;padding:10px;font-size:18px;font-family:標楷體">
+<div style="background-color:#EEFFBB;border:2px black solid;padding:10px;font-size:18px;font-family:微軟正黑體">
 
 <p><img style="width:100px;height:100px" src="http://np.cpami.gov.tw/filesys/image/01_chinese/04_news/8logo.jpg" align="left">
 
@@ -66,37 +90,37 @@ $("#gotop").click(function(){
 <h2>一、濕地 :</h2> 
 <div style="background-color:#EEFFBB;border:2px black solid;padding:10px;">
 <p><img style="width:300px;height:300px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Salt_Mountain.jpg/275px-Salt_Mountain.jpg" align="left">
-<h3 style="font-size:18px;font-family:標楷體;font-weight:900;">2007年中華民國內政部營建署評選75處國家級、國際級濕地，其中4處位於台江國家公園內。</h3>
-<h4 style="font-size:18px;font-family:標楷體"><gg style="font-weight:900;">曾文溪口濕地：</gg>國際級，瀕臨絕種的黑面琵鷺每年有三分之二在此渡冬。</h4>
-<h4 style="font-size:18px;font-family:標楷體"><gg style="font-weight:900;">四草濕地：</gg>國際級，範圍內有多處魚塭、鹽田、渠道及紅樹林，為高蹺鴴等水鳥繁殖與保護區。</h4>
-<h4 style="font-size:18px;font-family:標楷體"><gg style="font-weight:900;">七股鹽田濕地：</gg>國家級，冬季吸引雁鴨，亦為黑面琵鷺棲息地。</h4>
-<h4 style="font-size:18px;font-family:標楷體"><gg style="font-weight:900;">鹽水溪口濕地：</gg>國家級，有藻類、紅樹林等。</h4>
+<h3 style="font-size:18px;font-family:微軟正黑體;font-weight:900;">2007年中華民國內政部營建署評選75處國家級、國際級濕地，其中4處位於台江國家公園內。</h3>
+<h4 style="font-size:18px;font-family:微軟正黑體"><gg style="font-weight:900;">曾文溪口濕地：</gg>國際級，瀕臨絕種的黑面琵鷺每年有三分之二在此渡冬。</h4>
+<h4 style="font-size:18px;font-family:微軟正黑體"><gg style="font-weight:900;">四草濕地：</gg>國際級，範圍內有多處魚塭、鹽田、渠道及紅樹林，為高蹺鴴等水鳥繁殖與保護區。</h4>
+<h4 style="font-size:18px;font-family:微軟正黑體"><gg style="font-weight:900;">七股鹽田濕地：</gg>國家級，冬季吸引雁鴨，亦為黑面琵鷺棲息地。</h4>
+<h4 style="font-size:18px;font-family:微軟正黑體"><gg style="font-weight:900;">鹽水溪口濕地：</gg>國家級，有藻類、紅樹林等。</h4>
 </p>
 </div>
 
 <h2>二、河口沙洲潟湖生態 : </h2>
 <div style="background-color:#EEFFBB;border:2px black solid;padding:10px;">
-<h3 style="font-size:18px;font-family:標楷體"><gg style="font-weight:900;">海灘：</gg>因為波浪或沿岸流等搬運沙礫堆積在海濱，就形成了海灘。可分為沙灘、礫灘。</h3>
-<h3 style="font-size:18px;font-family:標楷體"><gg style="font-weight:900;">沙洲：</gg>海中的沙礫，因波浪和海流的作用，在濱海地區形成的堤狀沙礫堆積地形，通稱沙洲或障沙島。沙洲完全不與海岸相連者，即為濱外沙洲或離岸沙洲。沙洲為地理學上的名詞，當地人則稱之為「汕」，如：新浮崙汕、頂頭額汕。</h3>
-<h3 style="font-size:18px;font-family:標楷體"><gg style="font-weight:900;">沙嘴：</gg>沙洲的一端與陸地連接，另一端伸向海洋，稱為沙嘴，又稱為「汕尾」。</h3>
-<h3 style="font-size:18px;font-family:標楷體"><gg style="font-weight:900;">潟湖：</gg>濱外沙洲與陸地之間所圍的水域。</h3>
-<h3 style="font-size:18px;font-family:標楷體"><gg style="font-weight:900;">海埔地：</gg>即海埔新生地，係指在海岸地區經自然沈積或施工築堤涸出之土地，廣義而言，泛指臨海地區淺灘處表露的新生土地。</h3>
+<h3 style="font-size:18px;font-family:微軟正黑體"><gg style="font-weight:900;">海灘：</gg>因為波浪或沿岸流等搬運沙礫堆積在海濱，就形成了海灘。可分為沙灘、礫灘。</h3>
+<h3 style="font-size:18px;font-family:微軟正黑體"><gg style="font-weight:900;">沙洲：</gg>海中的沙礫，因波浪和海流的作用，在濱海地區形成的堤狀沙礫堆積地形，通稱沙洲或障沙島。沙洲完全不與海岸相連者，即為濱外沙洲或離岸沙洲。沙洲為地理學上的名詞，當地人則稱之為「汕」，如：新浮崙汕、頂頭額汕。</h3>
+<h3 style="font-size:18px;font-family:微軟正黑體"><gg style="font-weight:900;">沙嘴：</gg>沙洲的一端與陸地連接，另一端伸向海洋，稱為沙嘴，又稱為「汕尾」。</h3>
+<h3 style="font-size:18px;font-family:微軟正黑體"><gg style="font-weight:900;">潟湖：</gg>濱外沙洲與陸地之間所圍的水域。</h3>
+<h3 style="font-size:18px;font-family:微軟正黑體"><gg style="font-weight:900;">海埔地：</gg>即海埔新生地，係指在海岸地區經自然沈積或施工築堤涸出之土地，廣義而言，泛指臨海地區淺灘處表露的新生土地。</h3>
 </div>
 
 <h2>三、紅樹林濕地生態 : </h2>
-<div style="background-color:#EEFFBB;border:2px black solid;padding:10px;font-size:18px;font-family:標楷體">
+<div style="background-color:#EEFFBB;border:2px black solid;padding:10px;font-size:18px;font-family:微軟正黑體">
 <h3><gg style="font-weight:900;">曾文溪北岸的紅樹林，以七股溪與三股溪會合口有近10公頃海茄苳純林的「海寮紅樹林保護區」最具代表性，不但林相優美，也是上千小白鷺、夜鷺及黃頭鷺的群聚營巢所在。 曾文溪北岸以南有三處可欣賞紅樹林濕地</gg></h3>
 <h3><gg style="font-weight:900;">1.</gg>在竹筏港潮溝及蔡姑娘廟附近水道，組成樹種為海茄苳及欖李。</h3>
 <h3><gg style="font-weight:900;">2.</gg>在四草地區大眾廟後面及東側水道的紅海欖（五梨跤）具茂密支持根及樹冠層，廟旁水道的海茄苳根據年輪調查應有超過數十年的歷史，形成獨特風格的「綠色隧道」。廟的前潮池及周邊水道有生長良好的欖李，六月開滿白花有如六月雪，另有少數人工復育的水筆仔，在此處小小範圍內可同時看到四種紅樹林植物。</h3>
 <h3><gg style="font-weight:900;">3.</gg>在四草湖區域（鹽水溪、嘉南大圳、運鹽古運河，與竹筏港溪交會處）有原生較大面積的海茄苳、欖李與紅海欖（五梨跤）的混合林。</h3>
 </div>
 <h2>四、沙洲 : </h2>
-<div style="background-color:#EEFFBB;border:2px black solid;padding:10px;font-size:18px;font-family:標楷體">
+<div style="background-color:#EEFFBB;border:2px black solid;padding:10px;font-size:18px;font-family:微軟正黑體">
 <h3>曾文溪口離岸沙洲  臺南城西濱海沙洲  新浮崙汕</h3>
 <h3>青山港汕         網仔寮  頂頭額汕</h3>
 </div>
 <h2>五、古蹟與史蹟 : </h2>
-<div style="background-color:#EEFFBB;border:2px black solid;padding:10px;font-size:18px;font-family:標楷體">
+<div style="background-color:#EEFFBB;border:2px black solid;padding:10px;font-size:18px;font-family:微軟正黑體">
 <h3>四草砲台(國定二級古蹟)      鹿耳門港</h3>
 <h3>安順鹽場運鹽碼頭(市定古蹟)  竹筏港</h3>
 </div>
@@ -229,3 +253,5 @@ $("#gotop").click(function(){
 <a href="https://www.tjnp.gov.tw//chtNature/Environment/ShiDiXueXiao2.htm"><h3>台江國家公園(台江濕地學校)</h3></a>
 </div>
 </div>
+<a class="button" id="top" href="#">點此返回網頁頂部</a>
+<a class="button" id="bottom" href="#">點此到達網頁底部</a>
