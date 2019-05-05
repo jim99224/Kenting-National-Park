@@ -28,7 +28,7 @@ th{
 .button{
     background-color: #a0fdff;
     border: 2px solid black;
-    color: white;
+    color: ;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
