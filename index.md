@@ -69,8 +69,8 @@ th{
 <h1 style="color: black; font-weight: bold;font-size:0.8cm">基本資訊</h1>
 <div style="background-color:#EEFFBB;border:2px black solid;padding:10px;font-size:18px;">
 <img style="width:300px;height:300px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Yanshuei_River_marine_outfall.JPG/375px-Yanshuei_River_marine_outfall.JPG" align="right">
-台江國家公園是臺灣第8座國家公園，也是臺灣唯一濕地型國家公園。位於河海匯流之地，薈萃了「自然生態」、「人文歷史」與「漁鹽產業」等三大資源特色。廣大的河口、潟湖、魚塭及紅樹林等豐美的濕地環境，孕育了豐饒的生態資源，秋冬時節，也是候鳥過境、度冬的良好棲所；內海滄桑之變與開臺歷史，見證了台江地區深厚的文化底蘊；而阡陌縱橫的魚塭與鹽田，交織出人類與自然環境的和諧互動。台江國家公園宛若是一間間的戶外大教室，也是一所可以親近自然學習的濕地學校。
-    為透過環境教育服務，引領社會大眾及學校師生深度感受豐富的濕地生命，喚醒濕地保育意識與行動，台管處創設「台江濕地學校」，作為環境教育服務品牌。以多元且寓教於樂的課程，體驗台江獨特的資源特色，落實環境教育與永續發展之理念。 台江國家公園於2012年11月取得環保署環境教育設施場所認證，2013年「台江濕地學校」學習中心開放受理預約。2015年榮獲第三屆「國家環境教育獎」機關組優等獎，同年通過環保署評鑑並獲表揚為「優異環境教育設施場所場」，2017年取得國內第一個環境教育服務類「濕地標章」之肯定。
+墾丁國家公園位於恆春半島南部，同時涵蓋陸域與海域面積共32,570.14公頃，成立於1984年1月，是我國第一座國家公園。其位置三面臨海，東面太平洋，南瀕巴士海峽，西鄰臺灣海峽，北接恆春縱谷平原、三台山、滿州市街，港口溪、九棚溪等。南北長約24公里，東西寬約24公里。
+    墾丁國家公園最具特色的海岸線，一向是國人最愛的旅遊聖地，由於百萬年來地殼運動使陸地與海洋深入交融，造就本區奇特的地理景觀，海面下的世界更是絢麗繽紛，種類繁多的魚種、多采多姿的珊瑚更是代表特色。生態方面，熱帶氣候蘊育出富有生命力的熱帶、海濱植物，每年秋冬眾多的過境候鳥，也讓這裡成為著名賞鳥聖地。此外，此區發現多處史前遺跡與原住民文化遺址，更是本區無價的人文資產。
 </div>
 
 <h1 style="color: black; font-weight: bold;font-size:0.8cm">國家公園標誌意涵</h1>
@@ -249,7 +249,7 @@ th{
 <a href="https://www.tripadvisor.com.tw/RestaurantsNear-g13792454-d5513252-Taijian_National_Park-Annan_Tainan.html"><h3>貓途鷹(美食)</h3></a>
 <a href="https://www.tripadvisor.com.tw/HotelsNear-g13792454-d5513252-Taijian_National_Park-Annan_Tainan.html"><h3>貓途鷹(住宿)</h3></a>
 <a href="https://zh.wikipedia.org/wiki/%E5%8F%B0%E6%B1%9F%E5%9C%8B%E5%AE%B6%E5%85%AC%E5%9C%92"><h3>維基百科</h3></a>
-<a href="http://np.cpami.gov.tw/youth/index.php?option=com_content&view=article&id=4206&Itemid=6"><h3>台灣國家公園(公園標誌意涵)</h3></a>
+<a href="http://np.cpami.gov.tw/youth/index.php?option=com_content&view=article&id=31&Itemid=6"><h3>台灣國家公園(墾丁國家公園)</h3></a>
 <a href="https://www.tjnp.gov.tw//chtNature/Environment/ShiDiXueXiao2.htm"><h3>台江國家公園(台江濕地學校)</h3></a>
 </div>
 </div>
