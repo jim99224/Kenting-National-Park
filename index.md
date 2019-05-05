@@ -68,7 +68,7 @@ th{
 
 <h1 style="color: black; font-weight: bold;font-size:0.8cm">基本資訊</h1>
 <div style="background-color:#EEFFBB;border:2px black solid;padding:10px;font-size:18px;">
-<img style="width:300px;height:300px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Yanshuei_River_marine_outfall.JPG/375px-Yanshuei_River_marine_outfall.JPG" align="right">
+<img style="width:300px;height:300px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Nanwan_%28South_Bay%29.jpg/426px-Nanwan_%28South_Bay%29.jpg" align="right">
 墾丁國家公園位於恆春半島南部，同時涵蓋陸域與海域面積共32,570.14公頃，成立於1984年1月，是我國第一座國家公園。其位置三面臨海，東面太平洋，南瀕巴士海峽，西鄰臺灣海峽，北接恆春縱谷平原、三台山、滿州市街，港口溪、九棚溪等。南北長約24公里，東西寬約24公里。
     墾丁國家公園最具特色的海岸線，一向是國人最愛的旅遊聖地，由於百萬年來地殼運動使陸地與海洋深入交融，造就本區奇特的地理景觀，海面下的世界更是絢麗繽紛，種類繁多的魚種、多采多姿的珊瑚更是代表特色。生態方面，熱帶氣候蘊育出富有生命力的熱帶、海濱植物，每年秋冬眾多的過境候鳥，也讓這裡成為著名賞鳥聖地。此外，此區發現多處史前遺跡與原住民文化遺址，更是本區無價的人文資產。
 </div>
@@ -76,11 +76,9 @@ th{
 <h1 style="color: black; font-weight: bold;font-size:0.8cm">國家公園標誌意涵</h1>
 <div style="background-color:#EEFFBB;border:2px black solid;padding:10px;font-size:18px;font-family:微軟正黑體">
 
-<p><img style="width:100px;height:100px" src="http://np.cpami.gov.tw/filesys/image/01_chinese/04_news/8logo.jpg" align="left">
+<p><img style="width:100px;height:100px" src="http://np.cpami.gov.tw/filesys/image/01_chinese/04_news/1logo.jpg" align="left">
 
-以河口、黑面琵鷺加上台灣船、鲲鯓（沙洲）為設計元素，表現陸域資源特色及台江先民勇渡黑
-水溝（台灣海峽）墾拓顯著歷史，象徵台江國家公園的使命與目標。色彩上以「綠色」表現自然
-生態生生不息，「藍色」寓意海洋生態資源豐沛之意象，整體造形既傳達台灣歷史足跡。
+墾丁國家公園管理處處徽是由鵝鑾鼻方向遠眺大尖山所見的景觀藍天、白雲象徵著四季如春、晴朗的良好氣候尖聳的大尖山、蔚藍的海洋，代表著這是一座涵蓋陸地與海洋的國家公園。
 </p>
 
 </div>
