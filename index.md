@@ -90,7 +90,7 @@ th{
 <p><img style="width:275px;height:275px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/%E9%9D%92%E8%9B%99%E7%9F%B3.jpg/450px-%E9%9D%92%E8%9B%99%E7%9F%B3.jpg" align="left">
 <h3 style="font-size:18px;font-family:微軟正黑體;font-weight:900;">墾丁位處於熱帶，區內動植物種類豐富。至2014年，根據統計動物達5,164種，植物也有1,921種</h3>
 <h4 style="font-size:18px;font-family:微軟正黑體"><gg style="font-weight:900;">特有植物 :</gg>恆春半島的特有植物十分繁複。包括：瓜葉馬兜鈴、臺灣紅豆樹、鵝鑾鼻大戟、恆春鐵莧、南仁五月茶、恆春金線蓮、恆春石斑木等等近110種。</h4>
-<h4 style="font-size:18px;font-family:微軟正黑體"><gg style="font-weight:900;">海中生態：</gg>在恆春半島曾見的鯨豚類有大翅鯨、抹香鯨、吉氏海豚及黑身瓶鼻海豚。每年12月至翌年3月，在恆春西海岸之海口附近可見鯨類，而冬季時恆春半島各處沿海均可看到成群海豚。</h4><br>
+<h4 style="font-size:18px;font-family:微軟正黑體"><gg style="font-weight:900;">海中生態：</gg>在恆春半島曾見的鯨豚類有大翅鯨、抹香鯨、吉氏海豚及黑身瓶鼻海豚。每年12月至翌年3月，在恆春西海岸之海口附近可見鯨類，而冬季時恆春半島各處沿海均可看到成群海豚。</h4>
 <h4 style="font-size:18px;font-family:微軟正黑體"><gg style="font-weight:900;">候鳥：</gg>由於墾丁位於台灣本島最南端，過境此區的候鳥種類眾多，其中最著名的有秋冬之際南下避寒的伯勞與灰面鷲，灰面鷲到達墾丁的時間常於十月十日前後，故又稱「國慶鳥」。 此外，墾丁北區的龍鑾潭也是境內水鳥聚集的地點，包括雁鴨與鷸鴴科鳥類均可發現。國家公園在此處設立龍鑾潭自然中心，擁有賞鳥的專業設施。</h4>
 </p>
 </div>
