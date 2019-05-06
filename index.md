@@ -99,22 +99,22 @@ th{
         $('html, body').animate({scrollTop:$(document).height()-$(window).height()}, 1000);
       });
       $('#a').click(function () {
-        $('html, body').animate({scrollTop:$("#a").offset().top}, 1000);
+        $('html, body').animate({scrollTop:$("#A").offset().top}, 1000);
       });
       $('#b').click(function () {
-        $('html, body').animate({scrollTop:$("#b").offset().top}, 1000);
+        $('html, body').animate({scrollTop:$("#B").offset().top}, 1000);
       });
       $('#c').click(function () {
-        $('html, body').animate({scrollTop:$("#c").offset().top}, 1000);
+        $('html, body').animate({scrollTop:$("#C").offset().top}, 1000);
       });
       $('#d').click(function () {
-        $('html, body').animate({scrollTop:$("#d").offset().top}, 1000);
+        $('html, body').animate({scrollTop:$("#D").offset().top}, 1000);
       });
       $('#e').click(function () {
-        $('html, body').animate({scrollTop:$("#e").offset().top}, 1000);
+        $('html, body').animate({scrollTop:$("#E").offset().top}, 1000);
       });
       $('#f').click(function () {
-        $('html, body').animate({scrollTop:$("#f").offset().top}, 1000);
+        $('html, body').animate({scrollTop:$("#F").offset().top}, 1000);
       });
     });
   </script>
@@ -123,14 +123,14 @@ th{
 <div style="font-family:微軟正黑體">
 <h1 style="color: black; font-weight: bold;font-size:40px"><center>墾丁國家公園</center></h1>
 
-<h1 style="color: black; font-weight: bold;font-size:0.8cm" id="a">基本資訊</h1>
+<h1 style="color: black; font-weight: bold;font-size:0.8cm" id="A">基本資訊</h1>
 <div style="background-color:#EEFFBB;border:2px black solid;padding:10px;font-size:18px;">
 <img style="width:300px;height:300px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Nanwan_%28South_Bay%29.jpg/426px-Nanwan_%28South_Bay%29.jpg" align="right">
 墾丁國家公園位於恆春半島南部，同時涵蓋陸域與海域面積共32,570.14公頃，成立於1984年1月，是我國第一座國家公園。其位置三面臨海，東面太平洋，南瀕巴士海峽，西鄰臺灣海峽，北接恆春縱谷平原、三台山、滿州市街，港口溪、九棚溪等。南北長約24公里，東西寬約24公里。
     墾丁國家公園最具特色的海岸線，一向是國人最愛的旅遊聖地，由於百萬年來地殼運動使陸地與海洋深入交融，造就本區奇特的地理景觀，海面下的世界更是絢麗繽紛，種類繁多的魚種、多采多姿的珊瑚更是代表特色。生態方面，熱帶氣候蘊育出富有生命力的熱帶、海濱植物，每年秋冬眾多的過境候鳥，也讓這裡成為著名賞鳥聖地。此外，此區發現多處史前遺跡與原住民文化遺址，更是本區無價的人文資產。
 </div>
 
-<h1 style="color: black; font-weight: bold;font-size:0.8cm" id="b">國家公園標誌意涵</h1>
+<h1 style="color: black; font-weight: bold;font-size:0.8cm" id="B">國家公園標誌意涵</h1>
 <div style="background-color:#EEFFBB;border:2px black solid;padding:10px;font-size:18px;font-family:微軟正黑體">
 
 <p><img style="width:100px;height:100px" src="http://np.cpami.gov.tw/filesys/image/01_chinese/04_news/1logo.jpg" align="left">
@@ -140,7 +140,7 @@ th{
 
 </div>
 
-<h1 style="color: black; font-weight: bold;font-size:0.8cm" id="c">公園特色介紹</h1>
+<h1 style="color: black; font-weight: bold;font-size:0.8cm" id="C">公園特色介紹</h1>
 
 <h2>一、自然生態 :</h2> 
 <div style="background-color:#EEFFBB;border:2px black solid;padding:10px;">
@@ -177,7 +177,7 @@ th{
 
 
 
-<h1 style="color: black; font-weight: bold;font-size:0.8cm" id="d">交通資訊</h1>
+<h1 style="color: black; font-weight: bold;font-size:0.8cm" id="D">交通資訊</h1>
 <div style="background-color:#EEFFBB;border:2px black solid;padding:10px;">
 <h3>♦ 自行開車:</h3>
 
@@ -191,7 +191,7 @@ th{
 </div>
 
 
-<h1 style="color: black; font-weight: bold;font-size:0.8cm" id="e">住宿資訊</h1>
+<h1 style="color: black; font-weight: bold;font-size:0.8cm" id="E">住宿資訊</h1>
 <div style="background-color:#EEFFBB;border:2px black solid;padding:10px;">
 <p>
   <table border="1" cellpadding="5" cellspacing="0" width="90%">
@@ -240,7 +240,7 @@ th{
 </div>
 
 
-<h1 style="color: black; font-weight: bold;font-size:0.8cm" id="f">美食資訊</h1>
+<h1 style="color: black; font-weight: bold;font-size:0.8cm" id="F">美食資訊</h1>
 <div style="background-color:#EEFFBB;border:2px black solid;padding:10px;">
 <p>
   <table border="1" cellpadding="5" cellspacing="0" width="90%">
