@@ -98,6 +98,24 @@ th{
       $('#bottom').click(function () {
         $('html, body').animate({scrollTop:$(document).height()-$(window).height()}, 1000);
       });
+      $('#a').click(function () {
+        $('html, body').animate({scrollTop:$("#A").offset().top}, 1000);
+      });
+      $('#b').click(function () {
+        $('html, body').animate({scrollTop:$("#B").offset().top}, 1000);
+      });
+      $('#c').click(function () {
+        $('html, body').animate({scrollTop:$("#C").offset().top}, 1000);
+      });
+      $('#d').click(function () {
+        $('html, body').animate({scrollTop:$("#D").offset().top}, 1000);
+      });
+      $('#e').click(function () {
+        $('html, body').animate({scrollTop:$("#D").offset().top}, 1000);
+      });
+      $('#f').click(function () {
+        $('html, body').animate({scrollTop:$("#D").offset().top}, 1000);
+      });
     });
   </script>
 </head>
