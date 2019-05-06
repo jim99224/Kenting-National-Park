@@ -28,24 +28,53 @@ th{
 .button{
     background-color: #a0fdff;
     border: 2px solid black;
-    color: ;
+    color: white;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    display:block;
+  }
+.button:hover {
+  background-color: #A1D0FF;
 }
- #top{
+  #a{
+    position:fixed;
+    left:10%;
+    bottom:47%;
+  }
+  #b{
+    position:fixed;
+    left:10%;
+    bottom:40%;
+  }
+  #c{
+    position:fixed;
+    left:10%;
+    bottom:33%;
+  }
+  #d{
+    position:fixed;
+    left:10%;
+    bottom:26%;
+  }
+  #top{
     position:fixed;
     right:10%;
-    bottom:18%;
- }
- #bottom{
+    bottom:40%;
+  }
+  #bottom{
     position:fixed;
     right:10%;
-    bottom:10%;
- }
+    bottom:33%;
+  }
+  #home{
+    position:fixed;
+    right:10%;
+    bottom:26%;
+  }
  
 </style>
 
@@ -241,5 +270,10 @@ th{
 <a href="http://uukt.com.tw/traffic/how-to-go-kenting"><h3>悠遊墾丁</h3></a>
 </div>
 </div>
-<a class="button" id="top" href="#">點此返回網頁頂部</a>
-<a class="button" id="bottom" href="#">點此到達網頁底部</a>
+<p><a class="button" id="a" href="#">基本資訊</a>
+<a class="button" id="b" href="#">標示意涵</a>
+<a class="button" id="c" href="#">特色介紹</a>
+<a class="button" id="d" href="#">交通資訊</a>
+<a class="button" id="top" href="#">網頁頂端</a>
+<a class="button" id="bottom" href="#">網頁底部</a>
+<a class="button" id="home" href="#">返回主頁</a></p>
