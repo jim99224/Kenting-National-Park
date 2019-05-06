@@ -99,22 +99,22 @@ th{
         $('html, body').animate({scrollTop:$(document).height()-$(window).height()}, 1000);
       });
       $('#a').click(function () {
-        $('html, body').animate({scrollTop:$("#A").offset().top}, 1000);
+        $('html, body').animate({scrollTop:$("#a").offset().top}, 1000);
       });
       $('#b').click(function () {
-        $('html, body').animate({scrollTop:$("#B").offset().top}, 1000);
+        $('html, body').animate({scrollTop:$("#b").offset().top}, 1000);
       });
       $('#c').click(function () {
-        $('html, body').animate({scrollTop:$("#C").offset().top}, 1000);
+        $('html, body').animate({scrollTop:$("#c").offset().top}, 1000);
       });
       $('#d').click(function () {
-        $('html, body').animate({scrollTop:$("#D").offset().top}, 1000);
+        $('html, body').animate({scrollTop:$("#d").offset().top}, 1000);
       });
       $('#e').click(function () {
-        $('html, body').animate({scrollTop:$("#D").offset().top}, 1000);
+        $('html, body').animate({scrollTop:$("#e").offset().top}, 1000);
       });
       $('#f').click(function () {
-        $('html, body').animate({scrollTop:$("#D").offset().top}, 1000);
+        $('html, body').animate({scrollTop:$("#f").offset().top}, 1000);
       });
     });
   </script>
