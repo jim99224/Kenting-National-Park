@@ -285,7 +285,7 @@ th{
 <a class="button" id="c" href="#">特色介紹</a>
 <a class="button" id="d" href="#">交通資訊</a>
 <a class="button" id="e" href="#">住宿資訊</a>
-<a class="button" id="f" href="#">美食資訊<>
+<a class="button" id="f" href="#">美食資訊</a>
 <a class="button" id="top" href="#">網頁頂端</a>
 <a class="button" id="bottom" href="#">網頁底部</a>
 <a class="button" id="home" href="#">返回主頁</a></p>
