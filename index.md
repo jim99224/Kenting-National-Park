@@ -65,59 +65,7 @@
         right: 5%;
     }
     
-    #a {
-        position: fixed;
-        left: 10%;
-        bottom: 47%;
-    }
     
-    #b {
-        position: fixed;
-        left: 10%;
-        bottom: 40%;
-    }
-    
-    #c {
-        position: fixed;
-        left: 10%;
-        bottom: 33%;
-    }
-    
-    #d {
-        position: fixed;
-        left: 10%;
-        bottom: 26%;
-    }
-    
-    #e {
-        position: fixed;
-        left: 10%;
-        bottom: 19%;
-    }
-    
-    #f {
-        position: fixed;
-        left: 10%;
-        bottom: 12%;
-    }
-    
-    #top {
-        position: fixed;
-        right: 10%;
-        bottom: 40%;
-    }
-    
-    #bottom {
-        position: fixed;
-        right: 10%;
-        bottom: 33%;
-    }
-    
-    #home {
-        position: fixed;
-        right: 10%;
-        bottom: 26%;
-    }
 </style>
 <html>
 
