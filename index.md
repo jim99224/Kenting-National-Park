@@ -87,37 +87,54 @@ th{
   }
  
 </style>
-
+<html>
 <head>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
-  <script>
+< script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js" > </script> <script>
     $(document).ready(function() {
-      $('#top').click(function () {
-        $('html, body').animate({scrollTop: 0},1000);
-      });
-      $('#bottom').click(function () {
-        $('html, body').animate({scrollTop:$(document).height()-$(window).height()}, 1000);
-      });
-      $('#a').click(function () {
-        $('html, body').animate({scrollTop:$("#A").offset().top}, 1000);
-      });
-      $('#b').click(function () {
-        $('html, body').animate({scrollTop:$("#B").offset().top}, 1000);
-      });
-      $('#c').click(function () {
-        $('html, body').animate({scrollTop:$("#C").offset().top}, 1000);
-      });
-      $('#d').click(function () {
-        $('html, body').animate({scrollTop:$("#D").offset().top}, 1000);
-      });
-      $('#e').click(function () {
-        $('html, body').animate({scrollTop:$("#E").offset().top}, 1000);
-      });
-      $('#f').click(function () {
-        $('html, body').animate({scrollTop:$("#F").offset().top}, 1000);
-      });
-    });
-  </script>
+        $('#top').click(function() {
+            $('html, body').animate({
+                scrollTop: 0
+            }, 1000);
+        });
+        $('#bottom').click(function() {
+            $('html, body').animate({
+                scrollTop: $(document).height() - $(window).height()
+            }, 1000);
+        });
+        $('#a').click(function() {
+            $('html, body').animate({
+                scrollTop: $("#A").offset().top
+            }, 1000);
+        });
+        $('#b').click(function() {
+            $('html, body').animate({
+                scrollTop: $("#B").offset().top
+            }, 1000);
+        });
+        $('#c').click(function() {
+            $('html, body').animate({
+                scrollTop: $("#C").offset().top
+            }, 1000);
+        });
+        $('#d').click(function() {
+            $('html, body').animate({
+                scrollTop: $("#D").offset().top
+            }, 1000);
+        });
+        $('#e').click(function() {
+            $('html, body').animate({
+                scrollTop: $("#E").offset().top
+            }, 1000);
+        });
+        $('#f').click(function() {
+            $('html, body').animate({
+                scrollTop: $("#F").offset().top
+            }, 1000);
+        });
+        $("#flip").click(function() {
+            $(".button").slideToggle("slow");
+        });
+    }); </script>
 </head>
 
 <div style="font-family:微軟正黑體">
@@ -298,12 +315,16 @@ th{
 <a href="http://uukt.com.tw/traffic/how-to-go-kenting"><h3>悠遊墾丁</h3></a>
 </div>
 </div>
-<p><a class="button" id="a" href="#">基本資訊</a>
-<a class="button" id="b" href="#">標示意涵</a>
-<a class="button" id="c" href="#">特色介紹</a>
-<a class="button" id="d" href="#">交通資訊</a>
-<a class="button" id="e" href="#">住宿資訊</a>
-<a class="button" id="f" href="#">美食資訊</a>
-<a class="button" id="top" href="#">網頁頂端</a>
-<a class="button" id="bottom" href="#">網頁底部</a>
-<a class="button" id="home" href="#">返回主頁</a></p>
+<div class="button-bar">
+	<a id ="flip">選單</a>
+	<a class="button" id="a" href="#">基本資訊</a>
+	<a class="button" id="b" href="#">標示意涵</a>
+	<a class="button" id="c" href="#">特色介紹</a>
+	<a class="button" id="d" href="#">交通資訊</a>
+	<a class="button" id="e" href="#">住宿資訊</a>
+	<a class="button" id="f" href="#">美食資訊</a>
+	<a class="button" id="top" href="#">網頁頂端</a>
+	<a class="button" id="bottom" href="#">網頁底部</a>
+	<a class="button" id="home" href="#">返回主頁</a>
+</div>
+</html>
