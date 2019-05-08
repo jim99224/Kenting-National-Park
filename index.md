@@ -46,6 +46,24 @@
     .button:hover {
         background-color: #A1D0FF;
     }
+     #flip{
+        background-color: #a0fdff;
+        border: 2px solid black;
+        color: black;
+        padding: 15px 50px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        display:block;
+     }
+  
+    .button-bar {
+        position:fixed;
+        top: 20%;
+        right: 5%;
+    }
     
     #a {
         position: fixed;
