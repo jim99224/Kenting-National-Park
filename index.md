@@ -1,4 +1,44 @@
 <style>
+   body {
+            font-family: Arial;
+        }
+        /* Style the tab */
+        
+        .tab {
+            overflow: hidden;
+            border: 1px solid #ccc;
+            background-color: #f1f1f1;
+        }
+        /* Style the buttons inside the tab */
+        
+        .tab button {
+            background-color: inherit;
+            float: left;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            padding: 14px 16px;
+            transition: 0.3s;
+            font-size: 17px;
+        }
+        /* Change background color of buttons on hover */
+        
+        .tab button:hover {
+            background-color: #ddd;
+        }
+        /* Create an active/current tablink class */
+        
+        .tab button.active {
+            background-color: #ccc;
+        }
+        /* Style the tab content */
+        
+        .tabcontent {
+            display: none;
+            padding: 6px 12px;
+            border: 1px solid #ccc;
+            border-top: none;
+        }
      html {
     height: 100%;
   }
@@ -281,31 +321,42 @@ function googleTranslateElementInit() {
     </div>
 
     <h1 style="color: black; font-weight: bold;font-size:0.8cm" id="C">公園特色介紹</h1>
-
-    <h2>一、自然生態 :</h2>
     <div style="background-color:#EEFFBB;border:2px black solid;padding:10px;">
-        <p><img style="width:275px;height:275px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/%E9%9D%92%E8%9B%99%E7%9F%B3.jpg/450px-%E9%9D%92%E8%9B%99%E7%9F%B3.jpg" align="left">
-            <h3 style="font-size:18px;font-family:微軟正黑體;font-weight:900;">墾丁位處於熱帶，區內動植物種類豐富。至2014年，根據統計動物達5,164種，植物也有1,921種</h3>
-            <h4 style="font-size:18px;font-family:微軟正黑體"><gg style="font-weight:900;">特有植物 :</gg>恆春半島的特有植物十分繁複。包括：瓜葉馬兜鈴、臺灣紅豆樹、鵝鑾鼻大戟、恆春鐵莧、南仁五月茶、恆春金線蓮、恆春石斑木等等近110種。</h4>
-            <h4 style="font-size:18px;font-family:微軟正黑體"><gg style="font-weight:900;">海中生態：</gg>在恆春半島曾見的鯨豚類有大翅鯨、抹香鯨、吉氏海豚及黑身瓶鼻海豚。每年12月至翌年3月，在恆春西海岸之海口附近可見鯨類，而冬季時恆春半島各處沿海均可看到成群海豚。</h4>
-            <h4 style="font-size:18px;font-family:微軟正黑體"><gg style="font-weight:900;">候鳥：</gg>由於墾丁位於台灣本島最南端，過境此區的候鳥種類眾多，其中最著名的有秋冬之際南下避寒的伯勞與灰面鷲，灰面鷲到達墾丁的時間常於十月十日前後，故又稱「國慶鳥」。 此外，墾丁北區的龍鑾潭也是境內水鳥聚集的地點，包括雁鴨與鷸鴴科鳥類均可發現。國家公園在此處設立龍鑾潭自然中心，擁有賞鳥的專業設施。</h4>
-        </p>
-    </div>
+          <div class="tab">
+                <button class="tablinks" onclick="openCity(event, '自然生態')" id="defaultOpen">自然生態</button>
+                <button class="tablinks" onclick="openCity(event, '觀光景點')">觀光景點</button>
+                <button class="tablinks" onclick="openCity(event, '活動')">活動</button>
+          </div>
+          <div id="自然生態" class="tabcontent">
+                <p>
+                    <gg style="font-weight:900">墾丁位處於熱帶，區內動植物種類豐富。至2014年，根據統計動物達5,164種，植物也有1,921種</gg>
+                    <br>
+                    <br>
+                    <gg style="font-weight:900">特有植物 :</gg>恆春半島的特有植物十分繁複。包括：瓜葉馬兜鈴、臺灣紅豆樹、鵝鑾鼻大戟、恆春鐵莧、南仁五月茶、恆春金線蓮、恆春石斑木等等近110種。
+                    <br>
+                    <gg style="font-weight:900;">海中生態：</gg>在恆春半島曾見的鯨豚類有大翅鯨、抹香鯨、吉氏海豚及黑身瓶鼻海豚。每年12月至翌年3月，在恆春西海岸之海口附近可見鯨類，而冬季時恆春半島各處沿海均可看到成群海豚。
+                    <br>
+                    <gg style="font-weight:900;">候鳥：</gg>由於墾丁位於台灣本島最南端，過境此區的候鳥種類眾多，其中最著名的有秋冬之際南下避寒的伯勞與灰面鷲，灰面鷲到達墾丁的時間常於十月十日前後，故又稱「國慶鳥」。 此外，墾丁北區的龍鑾潭也是境內水鳥聚集的地點，包括雁鴨與鷸鴴科鳥類均可發現。國家公園在此處設立龍鑾潭自然中心，擁有賞鳥的專業設施。
+                    <br>
+                </p>
+         </div>
+         <div id="觀光景點" class="tabocontent">
+               <p>
+                    <gg style="font-weight:900;">鵝鑾鼻燈塔：</gg>鵝鑾鼻燈塔是臺灣最南端的燈塔。塔身全白，為圓柱形，為白鐵製，塔高24.1公尺，塔頂換裝新式大型四等旋轉透鏡電燈，經過大型旋轉透鏡後，光力為1,800,000支燭光，每十秒一閃，照射距離達二十七點二浬，是目前臺灣光力最強的燈塔，被稱為「東亞之光」。
+                    <gg style="font-weight:900;">墾丁國家森林遊樂區：</gg>全區遍布隆起珊瑚礁岩；植物共有1,200多種，分為椰子、油脂、橡膠、藥用、熱帶果樹等區，共有17處遊覽據點，其中以銀葉板根、仙洞、觀海樓、垂榕谷等較為出名。在仙洞、銀龍洞等天然石灰岩洞內，有各種石鐘乳及石筍，都是地下水中所溶蝕的碳酸鈣成份凝聚形成，成長緩慢，十分珍貴。
+                    <gg style="font-weight:900;">社頂自然公園：</gg>園內並有豐富的動植物、石灰岩洞、以及珊瑚礁岩裂縫造成的「一線天」景觀。植物有329種以上，原生馬兜鈴科、芸香科、蘿科等蝴蝶食草植物大量分布，公園內有近50種蝴蝶，是觀賞及研究蝴蝶的理想地區。
+                    <gg style="font-weight:900;">南灣：</gg>南灣是墾丁最負盛名的海灘之一，舊稱大坂埒。因海水湛藍，又稱做藍灣。此地沙灘長約600公尺，弧線美，沙質潔靜，在沙灘上經常有許多人進行游泳、日光浴、戲水等活動。本區漁產量豐富，時可見漁民使用地曳網（俗稱牽罟）作業的情形，每年4-7月虱目魚苗季可見到使用手抄網、塑膠筏捕捉魚苗，蔚為奇觀。近因觀光人潮眾多，已不復見。
+                    <gg style="font-weight:900;">關山：</gg>關山山頂上有一座依珊瑚礁建造的廟宇，為台灣其他地區所罕見，因為主神是福德正神，故稱福德宮。宮外有一巨石，民間相傳是五百年前天外飛來的，故稱「飛來石」，又因為型似烏龜，被稱為「靈龜石」。從其組成及四週地形可知為隆起珊瑚礁經差異侵蝕而遺留，常為遊客攝影的好題材。
+                    <gg style="font-weight:900;">船帆石：</gg>又稱「帆船石」，由墾丁往鵝鑾鼻方向，沿途可看到有一狀似帆船的珊瑚礁岩矗立於海中，看起來像是即將啟航的帆船，因而被稱為船帆石。由於從某一角度觀看像美國前總統尼克森的頭像，該石亦俗稱尼克森頭。
+                    <gg style="font-weight:900;">瓊麻展示館：</gg>位於龍鑾潭南岸，佔地18公頃，館內有日據時期"台灣纖維株式會社"所留下的宿舍、神社拱門等遺跡，並有瓊麻製造廠房、曬麻場與加工機器等。
+                    <gg style="font-weight:900;">佳樂水：</gg>佳樂水位於墾丁東海岸，原稱「高落水」、「佳落水」，是指該處有一瀑布。
+                    <gg style="font-weight:900;">後壁湖港：</gg>後壁湖港設於民國61年間；為恆春半島上最具規模的漁港；其後又在民國80年設立觀光碼頭，碼頭內有玻璃船、遊艇等等設施，吸引許多觀光客前來遊玩；在後壁湖港亦有船班開往蘭嶼。
+               </p>
+         </div>
 
-    <h2>二、觀光景點 : </h2>
-    <div style="background-color:#EEFFBB;border:2px black solid;padding:10px;">
-        <img style="width:300px;height:300px" src="https://upload.wikimedia.org/wikipedia/commons/2/2c/Eluanbi_lighthouse.jpg" align="right">
-        <h3 style="font-size:18px;font-family:微軟正黑體"><gg style="font-weight:900;">鵝鑾鼻燈塔：</gg>鵝鑾鼻燈塔是臺灣最南端的燈塔。塔身全白，為圓柱形，為白鐵製，塔高24.1公尺，塔頂換裝新式大型四等旋轉透鏡電燈，經過大型旋轉透鏡後，光力為1,800,000支燭光，每十秒一閃，照射距離達二十七點二浬，是目前臺灣光力最強的燈塔，被稱為「東亞之光」。</h3>
-        <h3 style="font-size:18px;font-family:微軟正黑體"><gg style="font-weight:900;">墾丁國家森林遊樂區：</gg>全區遍布隆起珊瑚礁岩；植物共有1,200多種，分為椰子、油脂、橡膠、藥用、熱帶果樹等區，共有17處遊覽據點，其中以銀葉板根、仙洞、觀海樓、垂榕谷等較為出名。在仙洞、銀龍洞等天然石灰岩洞內，有各種石鐘乳及石筍，都是地下水中所溶蝕的碳酸鈣成份凝聚形成，成長緩慢，十分珍貴。</h3>
-        <h3 style="font-size:18px;font-family:微軟正黑體"><gg style="font-weight:900;">社頂自然公園：</gg>園內並有豐富的動植物、石灰岩洞、以及珊瑚礁岩裂縫造成的「一線天」景觀。植物有329種以上，原生馬兜鈴科、芸香科、蘿科等蝴蝶食草植物大量分布，公園內有近50種蝴蝶，是觀賞及研究蝴蝶的理想地區。</h3>
-        <h3 style="font-size:18px;font-family:微軟正黑體"><gg style="font-weight:900;">南灣：</gg>南灣是墾丁最負盛名的海灘之一，舊稱大坂埒。因海水湛藍，又稱做藍灣。此地沙灘長約600公尺，弧線美，沙質潔靜，在沙灘上經常有許多人進行游泳、日光浴、戲水等活動。本區漁產量豐富，時可見漁民使用地曳網（俗稱牽罟）作業的情形，每年4-7月虱目魚苗季可見到使用手抄網、塑膠筏捕捉魚苗，蔚為奇觀。近因觀光人潮眾多，已不復見。</h3>
-        <h3 style="font-size:18px;font-family:微軟正黑體"><gg style="font-weight:900;">關山：</gg>關山山頂上有一座依珊瑚礁建造的廟宇，為台灣其他地區所罕見，因為主神是福德正神，故稱福德宮。宮外有一巨石，民間相傳是五百年前天外飛來的，故稱「飛來石」，又因為型似烏龜，被稱為「靈龜石」。從其組成及四週地形可知為隆起珊瑚礁經差異侵蝕而遺留，常為遊客攝影的好題材。</h3>
-        <img style="width:300px;height:300px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Chuanfan_Rock_in_Kenting_National_Park_00224.JPG/330px-Chuanfan_Rock_in_Kenting_National_Park_00224.JPG" align="left">
-        <h3 style="font-size:18px;font-family:微軟正黑體"><gg style="font-weight:900;">船帆石：</gg>又稱「帆船石」，由墾丁往鵝鑾鼻方向，沿途可看到有一狀似帆船的珊瑚礁岩矗立於海中，看起來像是即將啟航的帆船，因而被稱為船帆石。由於從某一角度觀看像美國前總統尼克森的頭像，該石亦俗稱尼克森頭。</h3>
-        <h3 style="font-size:18px;font-family:微軟正黑體"><gg style="font-weight:900;">瓊麻展示館：</gg>位於龍鑾潭南岸，佔地18公頃，館內有日據時期"台灣纖維株式會社"所留下的宿舍、神社拱門等遺跡，並有瓊麻製造廠房、曬麻場與加工機器等。</h3>
-        <h3 style="font-size:18px;font-family:微軟正黑體"><gg style="font-weight:900;">佳樂水：</gg>佳樂水位於墾丁東海岸，原稱「高落水」、「佳落水」，是指該處有一瀑布。</h3>
-        <h3 style="font-size:18px;font-family:微軟正黑體"><gg style="font-weight:900;">後壁湖港：</gg>後壁湖港設於民國61年間；為恆春半島上最具規模的漁港；其後又在民國80年設立觀光碼頭，碼頭內有玻璃船、遊艇等等設施，吸引許多觀光客前來遊玩；在後壁湖港亦有船班開往蘭嶼。</h3>
-    </div>
+   
+        
+    
 
     <h2>三、活動 : </h2>
     <div style="background-color:#EEFFBB;border:2px black solid;padding:10px;font-size:18px;font-family:微軟正黑體">
@@ -393,7 +444,7 @@ function googleTranslateElementInit() {
             }
         </script>
     </div>
-
+<>
     <h1 style="color: black; font-weight: bold;font-size:0.8cm" id="D">交通資訊</h1>
     <div style="background-color:#EEFFBB;border:2px black solid;padding:10px;">
         <h3>♦ 自行開車:</h3>
