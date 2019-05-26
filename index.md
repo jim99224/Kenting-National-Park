@@ -353,17 +353,38 @@ function googleTranslateElementInit() {
                     <gg style="font-weight:900;">後壁湖港：</gg>後壁湖港設於民國61年間；為恆春半島上最具規模的漁港；其後又在民國80年設立觀光碼頭，碼頭內有玻璃船、遊艇等等設施，吸引許多觀光客前來遊玩；在後壁湖港亦有船班開往蘭嶼。
                </p>
          </div>
-
+         
+         <div id="活動" class="tabocontent">
+            <p>
+                  <gg style="font-weight:900;">墾丁大街 :</gg>夜間有夜市，為世界罕見設於國家公園內的商圈與夜市，加上大街的飯店、旅館、街頭小食、沙灘旁的水上機車，以及核能發電廠，所造成的光害、污染、水溫上升，影響國家公園的生態維護。
+                  <gg style="font-weight:900;">墾丁風鈴季 :</gg>因墾丁秋冬之際落山風強勁，為平衡旅遊淡旺季之人潮，屏東縣政府於冬季開辦本活動，懸掛各式風鈴於主要景點。2006年最後一屆風鈴季結束後，不再舉辦。總計自2004－2006共三屆。
+                  <gg style="font-weight:900;">春天吶喊 :</gg>每年春假期間（4月5日前後）舉行，吸引了大量的人潮。原意是參考1970年代美國Woodstock演唱之精神，提供創作音樂團體或個人發揮的舞台並帶動年輕族群愛、和平、自由...等精神。
+                  <gg style="font-weight:900;">墾丁音樂季-戶外音樂活動 :</gg>近年由於商業行為的介入，周圍許多電音派對也隨之興起，甚至標榜女士著比基尼泳裝者免費入場。
+            </p>
+         </div>
    
-        
+        <script>
+                function openCity(evt, cityName) {
+                    var i, tabcontent, tablinks;
+                    tabcontent = document.getElementsByClassName("tabcontent");
+                    for (i = 0; i < tabcontent.length; i++) {
+                        tabcontent[i].style.display = "none";
+                    }
+                    tablinks = document.getElementsByClassName("tablinks");
+                    for (i = 0; i < tablinks.length; i++) {
+                        tablinks[i].className = tablinks[i].className.replace(" active", "");
+                    }
+                    document.getElementById(cityName).style.display = "block";
+                    evt.currentTarget.className += " active";
+                }
+
+                // Get the element with id="defaultOpen" and click on it
+                document.getElementById("defaultOpen").click();
+            </script>
     
 
-    <h2>三、活動 : </h2>
-    <div style="background-color:#EEFFBB;border:2px black solid;padding:10px;font-size:18px;font-family:微軟正黑體">
-        <h3><gg style="font-weight:900;">墾丁大街 :</gg>夜間有夜市，為世界罕見設於國家公園內的商圈與夜市，加上大街的飯店、旅館、街頭小食、沙灘旁的水上機車，以及核能發電廠，所造成的光害、污染、水溫上升，影響國家公園的生態維護。</h3>
-        <h3><gg style="font-weight:900;">墾丁風鈴季 :</gg>因墾丁秋冬之際落山風強勁，為平衡旅遊淡旺季之人潮，屏東縣政府於冬季開辦本活動，懸掛各式風鈴於主要景點。2006年最後一屆風鈴季結束後，不再舉辦。總計自2004－2006共三屆。</h3>
-        <h3><gg style="font-weight:900;">春天吶喊 :</gg>每年春假期間（4月5日前後）舉行，吸引了大量的人潮。原意是參考1970年代美國Woodstock演唱之精神，提供創作音樂團體或個人發揮的舞台並帶動年輕族群愛、和平、自由...等精神。</h3>
-        <h3><gg style="font-weight:900;">墾丁音樂季-戶外音樂活動 :</gg>近年由於商業行為的介入，周圍許多電音派對也隨之興起，甚至標榜女士著比基尼泳裝者免費入場。</h3>
+    
+        
         <p></p>
         <div class="slideshow-container">
 
