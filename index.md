@@ -1,4 +1,15 @@
 <style>
+     html {
+    height: 100%;
+  }
+
+  body {
+    background-image: url("http://web2.ctsh.hcc.edu.tw/stu101/s10111236/public_html/images/%E9%B5%9D%E9%91%BE%E9%BC%BB.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+  }
     .smaller-image {
         width: 300px;
     }
